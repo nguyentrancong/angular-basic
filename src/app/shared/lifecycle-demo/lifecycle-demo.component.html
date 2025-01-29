@@ -1,0 +1,74 @@
+<div>
+    <ol>
+        <li>Creation
+            <br>
+            <ul>
+                <li>Constructor</li>
+            </ul>
+        </li>
+
+        <li>Change Detection
+            <br>
+            <strong>ngOnInit</strong>
+            <ul>
+                <li>ngOnInit() → Chạy 1 lần khi component khởi tạo.</li>
+                <li>ngOnInit() → Load API, set giá trị mặc định.</li>
+            </ul>
+
+            <br>
+            <strong>ngOnChanges()</strong>
+            <ul>
+                <li>ngOnChanges() → Theo dõi dữ liệu Input() thay đổi.</li>
+                <li>ngOnChanges() → Khi Input() thay đổi.</li>
+            </ul>
+
+            <br>
+            <strong>ngDoCheck()</strong>
+            <ul>
+                <li>gDoCheck() → Theo dõi thay đổi tùy chỉnh.</li>
+                <li>ngDoCheck() → Kiểm tra thay đổi tùy chỉnh.</li>
+            </ul>
+
+            <p>ngAfterContentInit()</p>
+            <ul>
+                <li>Khi nội dung thẻ ng-content > được khởi tạo</li>
+                <li>Xử lý nội dung truyền vào từ parent</li>
+            </ul>
+
+            <p>ngAfterContentChecked()</p>
+            <ul>
+                <li>Khi Angular kiểm tra nội dung thẻ ng-content></li>
+                <li>Theo dõi thay đổi trong nội dung</li>
+            </ul>
+            <br>
+            <strong>ngAfterViewInit()</strong>
+            <ul>
+                <li>ngAfterViewInit() → Dùng để thao tác với DOM.</li>
+                <li>ngAfterViewInit() → Chạy code sau khi View đã render.</li>
+            </ul>
+
+            <p>ngAfterViewChecked()</p>
+            <ul>
+                <li>Khi Angular kiểm tra thay đổi trong view</li>
+                <li>Theo dõi thay đổi trong view/template</li>
+            </ul>
+        </li>
+
+        <li>Rendering
+            <p>afterNextRender()</p>
+            <ul>
+            </ul>
+            <p>afterRender()</p>
+            <ul>
+            </ul>
+        </li>
+        <li>Destruction
+            <br>
+            <strong>ngOnDestroy()</strong>
+            <ul>
+                <li>ngOnDestroy() → Cleanup dữ liệu trước khi component bị xóa.</li>
+                <li>ngOnDestroy() → Cleanup, Unsubscribe Observable.</li>
+            </ul>
+        </li>
+    </ol>
+</div>

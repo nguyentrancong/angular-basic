@@ -1,0 +1,9 @@
+.lesson {
+  border-style: dotted;
+  padding: 0.5rem;
+}
+h5 {
+  margin: 4px 16px;
+  font-size: 20px;
+  color: red;
+}
